@@ -1,0 +1,648 @@
+23:52:48,764 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+23:52:48,787 (main) DEBUG [DataNucleus.Plugin] - Plugin Registry "org.datanucleus.plugin.EclipsePluginRegistry" no existe. Usando registry de DataNucleus. Reason : ï¿½La clase org.eclipse.core.runtime.RegistryFactory no esta en el CLASSPATH!. Por favor compruebe la especificaciï¿½n y el CLASSPATH..
+23:52:48,788 (main) DEBUG [DataNucleus.Plugin] - Using PluginRegistry org.datanucleus.plugin.NonManagedPluginRegistry
+23:52:48,834 (main) DEBUG [DataNucleus.Plugin] - Registering bundle org.datanucleus version 3.1.5 at URL file:/home/kar/.m2/repository/org/datanucleus/datanucleus-core/3.1.5/datanucleus-core-3.1.5.jar.
+23:52:48,911 (main) DEBUG [DataNucleus.Plugin] - Loading extension points from plug-in file jar:file:/home/kar/.m2/repository/org/datanucleus/datanucleus-core/3.1.5/datanucleus-core-3.1.5.jar!/plugin.xml.
+23:52:48,947 (main) DEBUG [DataNucleus.Plugin] - Loading extensions from plug-in file jar:file:/home/kar/.m2/repository/org/datanucleus/datanucleus-core/3.1.5/datanucleus-core-3.1.5.jar!/plugin.xml.
+23:52:48,956 (main) DEBUG [DataNucleus.Plugin] - Registering bundle org.datanucleus.store.types.jodatime version 3.1.1 at URL file:/home/kar/.m2/repository/org/datanucleus/datanucleus-jodatime/3.1.1/datanucleus-jodatime-3.1.1.jar.
+23:52:48,959 (main) DEBUG [DataNucleus.Plugin] - Loading extension points from plug-in file jar:file:/home/kar/.m2/repository/org/datanucleus/datanucleus-jodatime/3.1.1/datanucleus-jodatime-3.1.1.jar!/plugin.xml.
+23:52:48,960 (main) DEBUG [DataNucleus.Plugin] - Loading extensions from plug-in file jar:file:/home/kar/.m2/repository/org/datanucleus/datanucleus-jodatime/3.1.1/datanucleus-jodatime-3.1.1.jar!/plugin.xml.
+23:52:48,961 (main) DEBUG [DataNucleus.Plugin] - Registering bundle org.datanucleus.api.jdo version 3.1.3 at URL file:/home/kar/.m2/repository/org/datanucleus/datanucleus-api-jdo/3.1.3/datanucleus-api-jdo-3.1.3.jar.
+23:52:48,966 (main) DEBUG [DataNucleus.Plugin] - Loading extension points from plug-in file jar:file:/home/kar/.m2/repository/org/datanucleus/datanucleus-api-jdo/3.1.3/datanucleus-api-jdo-3.1.3.jar!/plugin.xml.
+23:52:48,969 (main) DEBUG [DataNucleus.Plugin] - Loading extensions from plug-in file jar:file:/home/kar/.m2/repository/org/datanucleus/datanucleus-api-jdo/3.1.3/datanucleus-api-jdo-3.1.3.jar!/plugin.xml.
+23:52:48,971 (main) DEBUG [DataNucleus.Plugin] - Registering bundle org.datanucleus.enhancer version 3.1.1 at URL file:/home/kar/.m2/repository/org/datanucleus/datanucleus-enhancer/3.1.1/datanucleus-enhancer-3.1.1.jar.
+23:52:48,972 (main) DEBUG [DataNucleus.Plugin] - Loading extension points from plug-in file jar:file:/home/kar/.m2/repository/org/datanucleus/datanucleus-enhancer/3.1.1/datanucleus-enhancer-3.1.1.jar!/plugin.xml.
+23:52:48,972 (main) DEBUG [DataNucleus.Plugin] - Loading extensions from plug-in file jar:file:/home/kar/.m2/repository/org/datanucleus/datanucleus-enhancer/3.1.1/datanucleus-enhancer-3.1.1.jar!/plugin.xml.
+23:52:48,972 (main) WARN  [DataNucleus.Plugin] - Extension Point "org.datanucleus.store.rdbms.sql_expression" not registered, but plugin "org.datanucleus.store.types.jodatime" defined in file:/home/kar/.m2/repository/org/datanucleus/datanucleus-jodatime/3.1.1/datanucleus-jodatime-3.1.1.jar refers to it.
+23:52:48,972 (main) WARN  [DataNucleus.Plugin] - Extension Point "org.datanucleus.store.rdbms.sql_method" not registered, but plugin "org.datanucleus.store.types.jodatime" defined in file:/home/kar/.m2/repository/org/datanucleus/datanucleus-jodatime/3.1.1/datanucleus-jodatime-3.1.1.jar refers to it.
+23:52:48,989 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+23:52:48,990 (main) DEBUG [DataNucleus.Enhancer] - DataNucleus Enhancer : Classpath
+23:52:48,990 (main) DEBUG [DataNucleus.Enhancer] - >>  /opt/apache-maven-3.0.5//boot/plexus-classworlds-2.4.jar
+23:52:49,004 (main) DEBUG [DataNucleus.Persistence] - Tipos de Java inicializando ...
+23:52:49,005 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java boolean (persistent=true, DFG=true, embedded=true)
+23:52:49,005 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java byte (persistent=true, DFG=true, embedded=true)
+23:52:49,005 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java char (persistent=true, DFG=true, embedded=true)
+23:52:49,005 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java double (persistent=true, DFG=true, embedded=true)
+23:52:49,005 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java float (persistent=true, DFG=true, embedded=true)
+23:52:49,005 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java int (persistent=true, DFG=true, embedded=true)
+23:52:49,005 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java long (persistent=true, DFG=true, embedded=true)
+23:52:49,006 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java short (persistent=true, DFG=true, embedded=true)
+23:52:49,006 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java java.lang.Boolean (persistent=true, DFG=true, embedded=true)
+23:52:49,006 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java java.lang.Byte (persistent=true, DFG=true, embedded=true)
+23:52:49,006 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java java.lang.Character (persistent=true, DFG=true, embedded=true)
+23:52:49,006 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java java.lang.Double (persistent=true, DFG=true, embedded=true)
+23:52:49,006 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java java.lang.Float (persistent=true, DFG=true, embedded=true)
+23:52:49,006 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java java.lang.Integer (persistent=true, DFG=true, embedded=true)
+23:52:49,006 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java java.lang.Long (persistent=true, DFG=true, embedded=true)
+23:52:49,006 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java java.lang.Short (persistent=true, DFG=true, embedded=true)
+23:52:49,006 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java java.lang.Number (persistent=true, DFG=true, embedded=true)
+23:52:49,006 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java java.lang.String (persistent=true, DFG=true, embedded=true)
+23:52:49,007 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java java.lang.StringBuffer (persistent=false, DFG=false, embedded=true)
+23:52:49,007 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java java.lang.Enum (persistent=true, DFG=true, embedded=true)
+23:52:49,007 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java java.lang.Class (persistent=false, DFG=false, embedded=true)
+23:52:49,007 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java java.awt.image.BufferedImage (persistent=false, DFG=false, embedded=true)
+23:52:49,008 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java java.awt.Color (persistent=false, DFG=false, embedded=true)
+23:52:49,008 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java java.math.BigDecimal (persistent=true, DFG=true, embedded=true)
+23:52:49,008 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java java.math.BigInteger (persistent=true, DFG=true, embedded=true)
+23:52:49,008 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java java.net.URL (persistent=false, DFG=false, embedded=true)
+23:52:49,008 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java java.net.URI (persistent=false, DFG=false, embedded=true)
+23:52:49,009 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java java.sql.Date (persistent=false, DFG=false, embedded=false)
+23:52:49,009 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java java.sql.Time (persistent=false, DFG=false, embedded=false)
+23:52:49,009 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java java.sql.Timestamp (persistent=false, DFG=false, embedded=false)
+23:52:49,010 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java java.util.Date (persistent=true, DFG=true, embedded=true)
+23:52:49,010 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java java.util.Locale (persistent=true, DFG=false, embedded=true)
+23:52:49,010 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java java.util.Currency (persistent=true, DFG=false, embedded=true)
+23:52:49,011 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java java.util.Calendar (persistent=false, DFG=false, embedded=false)
+23:52:49,011 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java java.util.GregorianCalendar (persistent=false, DFG=false, embedded=false)
+23:52:49,011 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java java.util.UUID (persistent=false, DFG=false, embedded=false)
+23:52:49,011 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java java.util.TimeZone (persistent=false, DFG=false, embedded=false)
+23:52:49,013 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java java.util.ArrayList (persistent=true, DFG=false, embedded=false)
+23:52:49,014 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java java.util.Arrays$ArrayList (persistent=true, DFG=false, embedded=false)
+23:52:49,014 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java java.util.BitSet (persistent=false, DFG=false, embedded=false)
+23:52:49,016 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java java.util.Collection (persistent=true, DFG=false, embedded=false)
+23:52:49,018 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java java.util.HashMap (persistent=true, DFG=false, embedded=false)
+23:52:49,019 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java java.util.HashSet (persistent=true, DFG=false, embedded=false)
+23:52:49,021 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java java.util.Hashtable (persistent=true, DFG=false, embedded=false)
+23:52:49,022 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java java.util.LinkedHashMap (persistent=true, DFG=false, embedded=false)
+23:52:49,023 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java java.util.LinkedHashSet (persistent=true, DFG=false, embedded=false)
+23:52:49,025 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java java.util.LinkedList (persistent=true, DFG=false, embedded=false)
+23:52:49,026 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java java.util.List (persistent=true, DFG=false, embedded=false)
+23:52:49,028 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java java.util.Map (persistent=true, DFG=false, embedded=false)
+23:52:49,029 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java java.util.PriorityQueue (persistent=false, DFG=false, embedded=false)
+23:52:49,030 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java java.util.Properties (persistent=false, DFG=false, embedded=false)
+23:52:49,032 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java java.util.Queue (persistent=false, DFG=false, embedded=false)
+23:52:49,033 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java java.util.Set (persistent=true, DFG=false, embedded=false)
+23:52:49,034 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java java.util.SortedSet (persistent=true, DFG=false, embedded=false)
+23:52:49,035 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java java.util.SortedMap (persistent=true, DFG=false, embedded=false)
+23:52:49,037 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java java.util.Stack (persistent=false, DFG=false, embedded=false)
+23:52:49,038 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java java.util.TreeMap (persistent=true, DFG=false, embedded=false)
+23:52:49,039 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java java.util.TreeSet (persistent=true, DFG=false, embedded=false)
+23:52:49,041 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java java.util.Vector (persistent=true, DFG=false, embedded=false)
+23:52:49,041 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java [B (persistent=true, DFG=false, embedded=true)
+23:52:49,041 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java [C (persistent=true, DFG=false, embedded=true)
+23:52:49,041 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java [D (persistent=true, DFG=false, embedded=true)
+23:52:49,041 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java [F (persistent=true, DFG=false, embedded=true)
+23:52:49,041 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java [I (persistent=true, DFG=false, embedded=true)
+23:52:49,041 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java [J (persistent=true, DFG=false, embedded=true)
+23:52:49,041 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java [S (persistent=true, DFG=false, embedded=true)
+23:52:49,041 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java [Z (persistent=true, DFG=false, embedded=true)
+23:52:49,041 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java [Ljava.lang.Boolean; (persistent=true, DFG=false, embedded=true)
+23:52:49,041 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java [Ljava.lang.Byte; (persistent=true, DFG=false, embedded=true)
+23:52:49,042 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java [Ljava.lang.Character; (persistent=true, DFG=false, embedded=true)
+23:52:49,042 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java [Ljava.lang.Double; (persistent=true, DFG=false, embedded=true)
+23:52:49,042 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java [Ljava.lang.Float; (persistent=true, DFG=false, embedded=true)
+23:52:49,042 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java [Ljava.lang.Integer; (persistent=true, DFG=false, embedded=true)
+23:52:49,042 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java [Ljava.lang.Long; (persistent=true, DFG=false, embedded=true)
+23:52:49,042 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java [Ljava.lang.Short; (persistent=true, DFG=false, embedded=true)
+23:52:49,042 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java [Ljava.lang.Number; (persistent=true, DFG=false, embedded=true)
+23:52:49,042 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java [Ljava.lang.String; (persistent=true, DFG=false, embedded=true)
+23:52:49,042 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java [Ljava.math.BigInteger; (persistent=true, DFG=false, embedded=true)
+23:52:49,042 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java [Ljava.math.BigDecimal; (persistent=true, DFG=false, embedded=true)
+23:52:49,042 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java [Ljava.util.Date; (persistent=true, DFG=false, embedded=true)
+23:52:49,043 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java [Ljava.util.Locale; (persistent=true, DFG=false, embedded=true)
+23:52:49,043 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java [Ljava.lang.Enum; (persistent=true, DFG=false, embedded=true)
+23:52:49,046 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java org.joda.time.DateTime (persistent=false, DFG=false, embedded=true)
+23:52:49,047 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java org.joda.time.LocalDate (persistent=false, DFG=false, embedded=true)
+23:52:49,048 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java org.joda.time.LocalTime (persistent=false, DFG=false, embedded=true)
+23:52:49,049 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java org.joda.time.Duration (persistent=false, DFG=false, embedded=true)
+23:52:49,050 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java org.joda.time.Interval (persistent=false, DFG=false, embedded=true)
+23:52:49,052 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java org.joda.time.Period (persistent=false, DFG=false, embedded=true)
+23:52:49,052 (main) DEBUG [DataNucleus.Persistence] - Java types support loaded
+23:52:49,052 (main) DEBUG [DataNucleus.Persistence] - Inicializando TypeConverters ...
+23:52:49,053 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.math.BigDecimal<->java.lang.String using org.datanucleus.store.types.converters.BigDecimalStringConverter
+23:52:49,053 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.math.BigInteger<->java.lang.String using org.datanucleus.store.types.converters.BigIntegerStringConverter
+23:52:49,054 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.BitSet<->java.lang.String using org.datanucleus.store.types.converters.BitSetStringConverter
+23:52:49,054 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.Calendar<->java.lang.String using org.datanucleus.store.types.converters.CalendarStringConverter
+23:52:49,055 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.lang.Class<->java.lang.String using org.datanucleus.store.types.converters.ClassStringConverter
+23:52:49,055 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.awt.Color<->java.lang.String using org.datanucleus.store.types.converters.ColorStringConverter
+23:52:49,056 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.Currency<->java.lang.String using org.datanucleus.store.types.converters.CurrencyStringConverter
+23:52:49,056 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.Date<->java.lang.Long using org.datanucleus.store.types.converters.DateLongConverter
+23:52:49,057 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.Date<->java.lang.String using org.datanucleus.store.types.converters.DateStringConverter
+23:52:49,057 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.Locale<->java.lang.String using org.datanucleus.store.types.converters.LocaleStringConverter
+23:52:49,058 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.sql.Date<->java.lang.Long using org.datanucleus.store.types.converters.SqlDateLongConverter
+23:52:49,058 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.sql.Date<->java.lang.String using org.datanucleus.store.types.converters.SqlDateStringConverter
+23:52:49,058 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.sql.Time<->java.lang.Long using org.datanucleus.store.types.converters.SqlTimeLongConverter
+23:52:49,059 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.sql.Time<->java.lang.String using org.datanucleus.store.types.converters.SqlTimeStringConverter
+23:52:49,059 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.sql.Timestamp<->java.lang.Long using org.datanucleus.store.types.converters.SqlTimestampLongConverter
+23:52:49,060 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.lang.StringBuffer<->java.lang.String using org.datanucleus.store.types.converters.StringBufferStringConverter
+23:52:49,060 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.TimeZone<->java.lang.String using org.datanucleus.store.types.converters.TimeZoneStringConverter
+23:52:49,060 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.net.URI<->java.lang.String using org.datanucleus.store.types.converters.URIStringConverter
+23:52:49,061 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.net.URL<->java.lang.String using org.datanucleus.store.types.converters.URLStringConverter
+23:52:49,061 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.UUID<->java.lang.String using org.datanucleus.store.types.converters.UUIDStringConverter
+23:52:49,062 (main) DEBUG [DataNucleus.Persistence] - TypeConverter for javax.time.calendar.LocalDate<->java.lang.String ignored since java type not present in CLASSPATH
+23:52:49,062 (main) DEBUG [DataNucleus.Persistence] - TypeConverter for javax.time.calendar.LocalTime<->java.lang.String ignored since java type not present in CLASSPATH
+23:52:49,063 (main) DEBUG [DataNucleus.Persistence] - TypeConverter for javax.time.calendar.LocalTime<->java.lang.Long ignored since java type not present in CLASSPATH
+23:52:49,063 (main) DEBUG [DataNucleus.Persistence] - TypeConverter for javax.time.calendar.LocalDateTime<->java.lang.String ignored since java type not present in CLASSPATH
+23:52:49,064 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.io.Serializable<->java.lang.String using org.datanucleus.store.types.converters.SerializableStringConverter
+23:52:49,065 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.io.Serializable<->[B using org.datanucleus.store.types.converters.SerializableByteArrayConverter
+23:52:49,066 (main) DEBUG [DataNucleus.Persistence] - Added converter for org.joda.time.DateTime<->java.lang.String using org.datanucleus.store.types.converters.JodaDateTimeStringConverter
+23:52:49,066 (main) DEBUG [DataNucleus.Persistence] - Added converter for org.joda.time.Duration<->java.lang.String using org.datanucleus.store.types.converters.JodaDurationStringConverter
+23:52:49,067 (main) DEBUG [DataNucleus.Persistence] - Added converter for org.joda.time.Interval<->java.lang.String using org.datanucleus.store.types.converters.JodaIntervalStringConverter
+23:52:49,067 (main) DEBUG [DataNucleus.Persistence] - Added converter for org.joda.time.LocalDate<->java.lang.String using org.datanucleus.store.types.converters.JodaLocalDateStringConverter
+23:52:49,068 (main) DEBUG [DataNucleus.Persistence] - Added converter for org.joda.time.LocalTime<->java.lang.String using org.datanucleus.store.types.converters.JodaLocalTimeStringConverter
+23:52:49,068 (main) DEBUG [DataNucleus.Persistence] - Added converter for org.joda.time.Period<->java.lang.String using org.datanucleus.store.types.converters.JodaPeriodStringConverter
+23:52:49,068 (main) DEBUG [DataNucleus.Persistence] - TypeConverters listo
+23:52:49,069 (main) DEBUG [DataNucleus.MetaData] - MetaDataManager : Input=(XML,Annotations), XML-Validation=false, XML-Suffices=(persistence=*.jdo, orm=orm, query=*.jdoquery), JDO-listener=false
+23:52:49,069 (main) DEBUG [DataNucleus.MetaData] - MetaData Management : Carga de Metadata de los archivos de metadata "[-enhancerName, ASM]" ...
+23:52:49,069 (main) WARN  [DataNucleus.MetaData] - Metadata file -enhancerName not found in CLASSPATH
+23:52:49,069 (main) WARN  [DataNucleus.MetaData] - Metadata file ASM not found in CLASSPATH
+23:52:49,069 (main) DEBUG [DataNucleus.MetaData] - MetaData Management : Carga de Metadata ya ha terminado
+23:52:49,090 (main) DEBUG [DataNucleus.MetaData] - MetaData Management : Carga de Metadata de las clases "[dom.autos.Auto$Seguro, dom.autos.AutoServicio, dom.autos.Auto, dom.autos.Auto$Estado, dom.autos.Auto$TipoCombustible, dom.autos.Auto$1, dom.utilidades.UtilidadesServicio$1, dom.utilidades.UtilidadesServicio, dom.utilidades.Categoria, dom.utilidades.Marca$1, dom.utilidades.Marca, dom.utilidades.UtilidadesServicio$2]" ...
+23:52:49,098 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.autos.Auto$Seguro" en /META-INF/package.jdo
+23:52:49,098 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.autos.Auto$Seguro" en /WEB-INF/package.jdo
+23:52:49,098 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.autos.Auto$Seguro" en /package.jdo
+23:52:49,098 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.autos.Auto$Seguro" en /dom/package.jdo
+23:52:49,099 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.autos.Auto$Seguro" en /dom.jdo
+23:52:49,099 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.autos.Auto$Seguro" en /dom/autos/package.jdo
+23:52:49,099 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.autos.Auto$Seguro" en /dom/autos.jdo
+23:52:49,099 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.autos.Auto$Seguro" en /dom/autos/Auto$Seguro.jdo
+23:52:49,100 (main) DEBUG [DataNucleus.MetaData] - No hemos encontrado el MetaData del tipo "jdo" por la clase "dom.autos.Auto$Seguro"
+23:52:49,100 (main) DEBUG [DataNucleus.MetaData] - Registrando la clase "dom.autos.Auto$Seguro" no tener Meta-Data
+23:52:49,100 (main) DEBUG [DataNucleus.MetaData] - La clase "dom.autos.Auto$Seguro" no tiene MetaData o annotaciones.
+23:52:49,104 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.autos.AutoServicio" tiene anotaciones pero no hay ningï¿½n AnnotationReader registrado para este tipo de anotaciones. Por favor compruebe el CLASSPATH y las anotaciones para validez.
+23:52:49,105 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.autos.AutoServicio" en /META-INF/package.jdo
+23:52:49,105 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.autos.AutoServicio" en /WEB-INF/package.jdo
+23:52:49,105 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.autos.AutoServicio" en /package.jdo
+23:52:49,105 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.autos.AutoServicio" en /dom/package.jdo
+23:52:49,106 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.autos.AutoServicio" en /dom.jdo
+23:52:49,106 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.autos.AutoServicio" en /dom/autos/package.jdo
+23:52:49,107 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.autos.AutoServicio" en /dom/autos.jdo
+23:52:49,107 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.autos.AutoServicio" en /dom/autos/AutoServicio.jdo
+23:52:49,107 (main) DEBUG [DataNucleus.MetaData] - No hemos encontrado el MetaData del tipo "jdo" por la clase "dom.autos.AutoServicio"
+23:52:49,107 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.autos.AutoServicio" tiene anotaciones pero no hay ningï¿½n AnnotationReader registrado para este tipo de anotaciones. Por favor compruebe el CLASSPATH y las anotaciones para validez.
+23:52:49,107 (main) DEBUG [DataNucleus.MetaData] - Registrando la clase "dom.autos.AutoServicio" no tener Meta-Data
+23:52:49,107 (main) DEBUG [DataNucleus.MetaData] - La clase "dom.autos.AutoServicio" no tiene MetaData o annotaciones.
+23:52:49,169 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.autos.Auto" tiene anotaciones de JDO y vamos a usarlas.
+23:52:49,189 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.autos.Auto$Estado" en /META-INF/package.jdo
+23:52:49,190 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.autos.Auto$Estado" en /WEB-INF/package.jdo
+23:52:49,190 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.autos.Auto$Estado" en /package.jdo
+23:52:49,190 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.autos.Auto$Estado" en /dom/package.jdo
+23:52:49,190 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.autos.Auto$Estado" en /dom.jdo
+23:52:49,191 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.autos.Auto$Estado" en /dom/autos/package.jdo
+23:52:49,191 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.autos.Auto$Estado" en /dom/autos.jdo
+23:52:49,191 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.autos.Auto$Estado" en /dom/autos/Auto$Estado.jdo
+23:52:49,191 (main) DEBUG [DataNucleus.MetaData] - No hemos encontrado el MetaData del tipo "jdo" por la clase "dom.autos.Auto$Estado"
+23:52:49,191 (main) DEBUG [DataNucleus.MetaData] - Registrando la clase "dom.autos.Auto$Estado" no tener Meta-Data
+23:52:49,191 (main) DEBUG [DataNucleus.MetaData] - La clase "dom.autos.Auto$Estado" no tiene MetaData o annotaciones.
+23:52:49,192 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.autos.Auto$TipoCombustible" en /META-INF/package.jdo
+23:52:49,192 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.autos.Auto$TipoCombustible" en /WEB-INF/package.jdo
+23:52:49,192 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.autos.Auto$TipoCombustible" en /package.jdo
+23:52:49,192 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.autos.Auto$TipoCombustible" en /dom/package.jdo
+23:52:49,193 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.autos.Auto$TipoCombustible" en /dom.jdo
+23:52:49,193 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.autos.Auto$TipoCombustible" en /dom/autos/package.jdo
+23:52:49,193 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.autos.Auto$TipoCombustible" en /dom/autos.jdo
+23:52:49,193 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.autos.Auto$TipoCombustible" en /dom/autos/Auto$TipoCombustible.jdo
+23:52:49,193 (main) DEBUG [DataNucleus.MetaData] - No hemos encontrado el MetaData del tipo "jdo" por la clase "dom.autos.Auto$TipoCombustible"
+23:52:49,194 (main) DEBUG [DataNucleus.MetaData] - Registrando la clase "dom.autos.Auto$TipoCombustible" no tener Meta-Data
+23:52:49,194 (main) DEBUG [DataNucleus.MetaData] - La clase "dom.autos.Auto$TipoCombustible" no tiene MetaData o annotaciones.
+23:52:49,194 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.autos.Auto$1" en /META-INF/package.jdo
+23:52:49,195 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.autos.Auto$1" en /WEB-INF/package.jdo
+23:52:49,195 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.autos.Auto$1" en /package.jdo
+23:52:49,195 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.autos.Auto$1" en /dom/package.jdo
+23:52:49,195 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.autos.Auto$1" en /dom.jdo
+23:52:49,196 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.autos.Auto$1" en /dom/autos/package.jdo
+23:52:49,196 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.autos.Auto$1" en /dom/autos.jdo
+23:52:49,196 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.autos.Auto$1" en /dom/autos/Auto$1.jdo
+23:52:49,196 (main) DEBUG [DataNucleus.MetaData] - No hemos encontrado el MetaData del tipo "jdo" por la clase "dom.autos.Auto$1"
+23:52:49,196 (main) DEBUG [DataNucleus.MetaData] - Registrando la clase "dom.autos.Auto$1" no tener Meta-Data
+23:52:49,196 (main) DEBUG [DataNucleus.MetaData] - La clase "dom.autos.Auto$1" no tiene MetaData o annotaciones.
+23:52:49,197 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.utilidades.UtilidadesServicio$1" en /META-INF/package.jdo
+23:52:49,197 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.utilidades.UtilidadesServicio$1" en /WEB-INF/package.jdo
+23:52:49,198 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.utilidades.UtilidadesServicio$1" en /package.jdo
+23:52:49,198 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.utilidades.UtilidadesServicio$1" en /dom/package.jdo
+23:52:49,198 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.utilidades.UtilidadesServicio$1" en /dom.jdo
+23:52:49,198 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.utilidades.UtilidadesServicio$1" en /dom/utilidades/package.jdo
+23:52:49,199 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.utilidades.UtilidadesServicio$1" en /dom/utilidades.jdo
+23:52:49,199 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.utilidades.UtilidadesServicio$1" en /dom/utilidades/UtilidadesServicio$1.jdo
+23:52:49,199 (main) DEBUG [DataNucleus.MetaData] - No hemos encontrado el MetaData del tipo "jdo" por la clase "dom.utilidades.UtilidadesServicio$1"
+23:52:49,199 (main) DEBUG [DataNucleus.MetaData] - Registrando la clase "dom.utilidades.UtilidadesServicio$1" no tener Meta-Data
+23:52:49,199 (main) DEBUG [DataNucleus.MetaData] - La clase "dom.utilidades.UtilidadesServicio$1" no tiene MetaData o annotaciones.
+23:52:49,199 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.utilidades.UtilidadesServicio" tiene anotaciones pero no hay ningï¿½n AnnotationReader registrado para este tipo de anotaciones. Por favor compruebe el CLASSPATH y las anotaciones para validez.
+23:52:49,200 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.utilidades.UtilidadesServicio" en /META-INF/package.jdo
+23:52:49,200 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.utilidades.UtilidadesServicio" en /WEB-INF/package.jdo
+23:52:49,200 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.utilidades.UtilidadesServicio" en /package.jdo
+23:52:49,200 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.utilidades.UtilidadesServicio" en /dom/package.jdo
+23:52:49,201 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.utilidades.UtilidadesServicio" en /dom.jdo
+23:52:49,201 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.utilidades.UtilidadesServicio" en /dom/utilidades/package.jdo
+23:52:49,201 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.utilidades.UtilidadesServicio" en /dom/utilidades.jdo
+23:52:49,201 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.utilidades.UtilidadesServicio" en /dom/utilidades/UtilidadesServicio.jdo
+23:52:49,201 (main) DEBUG [DataNucleus.MetaData] - No hemos encontrado el MetaData del tipo "jdo" por la clase "dom.utilidades.UtilidadesServicio"
+23:52:49,201 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.utilidades.UtilidadesServicio" tiene anotaciones pero no hay ningï¿½n AnnotationReader registrado para este tipo de anotaciones. Por favor compruebe el CLASSPATH y las anotaciones para validez.
+23:52:49,201 (main) DEBUG [DataNucleus.MetaData] - Registrando la clase "dom.utilidades.UtilidadesServicio" no tener Meta-Data
+23:52:49,202 (main) DEBUG [DataNucleus.MetaData] - La clase "dom.utilidades.UtilidadesServicio" no tiene MetaData o annotaciones.
+23:52:49,203 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.utilidades.Categoria" tiene anotaciones de JDO y vamos a usarlas.
+23:52:49,204 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.utilidades.Marca$1" en /META-INF/package.jdo
+23:52:49,205 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.utilidades.Marca$1" en /WEB-INF/package.jdo
+23:52:49,205 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.utilidades.Marca$1" en /package.jdo
+23:52:49,205 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.utilidades.Marca$1" en /dom/package.jdo
+23:52:49,205 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.utilidades.Marca$1" en /dom.jdo
+23:52:49,206 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.utilidades.Marca$1" en /dom/utilidades/package.jdo
+23:52:49,206 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.utilidades.Marca$1" en /dom/utilidades.jdo
+23:52:49,206 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.utilidades.Marca$1" en /dom/utilidades/Marca$1.jdo
+23:52:49,206 (main) DEBUG [DataNucleus.MetaData] - No hemos encontrado el MetaData del tipo "jdo" por la clase "dom.utilidades.Marca$1"
+23:52:49,206 (main) DEBUG [DataNucleus.MetaData] - Registrando la clase "dom.utilidades.Marca$1" no tener Meta-Data
+23:52:49,206 (main) DEBUG [DataNucleus.MetaData] - La clase "dom.utilidades.Marca$1" no tiene MetaData o annotaciones.
+23:52:49,207 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.utilidades.Marca" tiene anotaciones de JDO y vamos a usarlas.
+23:52:49,209 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.utilidades.UtilidadesServicio$2" en /META-INF/package.jdo
+23:52:49,209 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.utilidades.UtilidadesServicio$2" en /WEB-INF/package.jdo
+23:52:49,209 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.utilidades.UtilidadesServicio$2" en /package.jdo
+23:52:49,210 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.utilidades.UtilidadesServicio$2" en /dom/package.jdo
+23:52:49,210 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.utilidades.UtilidadesServicio$2" en /dom.jdo
+23:52:49,210 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.utilidades.UtilidadesServicio$2" en /dom/utilidades/package.jdo
+23:52:49,210 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.utilidades.UtilidadesServicio$2" en /dom/utilidades.jdo
+23:52:49,211 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "dom.utilidades.UtilidadesServicio$2" en /dom/utilidades/UtilidadesServicio$2.jdo
+23:52:49,211 (main) DEBUG [DataNucleus.MetaData] - No hemos encontrado el MetaData del tipo "jdo" por la clase "dom.utilidades.UtilidadesServicio$2"
+23:52:49,211 (main) DEBUG [DataNucleus.MetaData] - Registrando la clase "dom.utilidades.UtilidadesServicio$2" no tener Meta-Data
+23:52:49,211 (main) DEBUG [DataNucleus.MetaData] - La clase "dom.utilidades.UtilidadesServicio$2" no tiene MetaData o annotaciones.
+23:52:49,211 (main) DEBUG [DataNucleus.MetaData] - Populaciï¿½n del MetaData ...
+23:52:49,212 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.autos.Auto" : Populando Meta-Data
+23:52:49,212 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.autos.Auto" campo "ownedBy" : aï¿½adiendo el Meta-Data por el campo como no estaba en la definiciï¿½n de Meta-Data.
+23:52:49,218 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.autos.Auto" campo "patente" : aï¿½adiendo el Meta-Data por el campo como no estaba en la definiciï¿½n de Meta-Data.
+23:52:49,218 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.autos.Auto" campo "marca" : aï¿½adiendo el Meta-Data por el campo como no estaba en la definiciï¿½n de Meta-Data.
+23:52:49,218 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.autos.Auto" campo "modelo" : aï¿½adiendo el Meta-Data por el campo como no estaba en la definiciï¿½n de Meta-Data.
+23:52:49,218 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.autos.Auto" campo "ano" : aï¿½adiendo el Meta-Data por el campo como no estaba en la definiciï¿½n de Meta-Data.
+23:52:49,218 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.autos.Auto" campo "color" : aï¿½adiendo el Meta-Data por el campo como no estaba en la definiciï¿½n de Meta-Data.
+23:52:49,218 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.autos.Auto" campo "kms" : aï¿½adiendo el Meta-Data por el campo como no estaba en la definiciï¿½n de Meta-Data.
+23:52:49,218 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.autos.Auto" campo "baul" : aï¿½adiendo el Meta-Data por el campo como no estaba en la definiciï¿½n de Meta-Data.
+23:52:49,218 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.autos.Auto" campo "combustible" : aï¿½adiendo el Meta-Data por el campo como no estaba en la definiciï¿½n de Meta-Data.
+23:52:49,219 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.autos.Auto" campo "estado" : aï¿½adiendo el Meta-Data por el campo como no estaba en la definiciï¿½n de Meta-Data.
+23:52:49,219 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.autos.Auto" campo "fechaCompra" : aï¿½adiendo el Meta-Data por el campo como no estaba en la definiciï¿½n de Meta-Data.
+23:52:49,219 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.autos.Auto" campo "seguro" : aï¿½adiendo el Meta-Data por el campo como no estaba en la definiciï¿½n de Meta-Data.
+23:52:49,219 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.autos.Auto" campo "container" : aï¿½adiendo el Meta-Data por el campo como no estaba en la definiciï¿½n de Meta-Data.
+23:52:49,221 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java dom.autos.Auto$TipoCombustible como el tipo de Java java.lang.Enum
+23:52:49,221 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "org.apache.isis.applib.DomainObjectContainer" en /META-INF/package.jdo
+23:52:49,221 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "org.apache.isis.applib.DomainObjectContainer" en /WEB-INF/package.jdo
+23:52:49,222 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "org.apache.isis.applib.DomainObjectContainer" en /package.jdo
+23:52:49,222 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "org.apache.isis.applib.DomainObjectContainer" en /org/package.jdo
+23:52:49,222 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "org.apache.isis.applib.DomainObjectContainer" en /org.jdo
+23:52:49,222 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "org.apache.isis.applib.DomainObjectContainer" en /org/apache/package.jdo
+23:52:49,223 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "org.apache.isis.applib.DomainObjectContainer" en /org/apache.jdo
+23:52:49,223 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "org.apache.isis.applib.DomainObjectContainer" en /org/apache/isis/package.jdo
+23:52:49,223 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "org.apache.isis.applib.DomainObjectContainer" en /org/apache/isis.jdo
+23:52:49,223 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "org.apache.isis.applib.DomainObjectContainer" en /org/apache/isis/applib/package.jdo
+23:52:49,223 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "org.apache.isis.applib.DomainObjectContainer" en /org/apache/isis/applib.jdo
+23:52:49,224 (main) DEBUG [DataNucleus.MetaData] - No encontramos el MetaData del tipo "jdo" por la clase "org.apache.isis.applib.DomainObjectContainer" en /org/apache/isis/applib/DomainObjectContainer.jdo
+23:52:49,224 (main) DEBUG [DataNucleus.MetaData] - No hemos encontrado el MetaData del tipo "jdo" por la clase "org.apache.isis.applib.DomainObjectContainer"
+23:52:49,224 (main) DEBUG [DataNucleus.MetaData] - Registrando la clase "org.apache.isis.applib.DomainObjectContainer" no tener Meta-Data
+23:52:49,224 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java dom.autos.Auto$Estado como el tipo de Java java.lang.Enum
+23:52:49,225 (main) DEBUG [DataNucleus.Persistence] - Tipo de Java dom.autos.Auto$Seguro como el tipo de Java java.lang.Enum
+23:52:49,225 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.utilidades.Categoria" : Populando Meta-Data
+23:52:49,225 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.utilidades.Categoria" campo "categorias" : aï¿½adiendo el Meta-Data por el campo como no estaba en la definiciï¿½n de Meta-Data.
+23:52:49,225 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.utilidades.Categoria" campo "cantPuertas" : aï¿½adiendo el Meta-Data por el campo como no estaba en la definiciï¿½n de Meta-Data.
+23:52:49,225 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.utilidades.Categoria" campo "cantPlazas" : aï¿½adiendo el Meta-Data por el campo como no estaba en la definiciï¿½n de Meta-Data.
+23:52:49,225 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.utilidades.Categoria" campo "container" : aï¿½adiendo el Meta-Data por el campo como no estaba en la definiciï¿½n de Meta-Data.
+23:52:49,226 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.utilidades.Marca" : Populando Meta-Data
+23:52:49,226 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.utilidades.Marca" campo "ownedBy" : aï¿½adiendo el Meta-Data por el campo como no estaba en la definiciï¿½n de Meta-Data.
+23:52:49,226 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.utilidades.Marca" campo "nombre" : aï¿½adiendo el Meta-Data por el campo como no estaba en la definiciï¿½n de Meta-Data.
+23:52:49,226 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.utilidades.Marca" campo "itemsAutos" : aï¿½adiendo el Meta-Data por el campo como no estaba en la definiciï¿½n de Meta-Data.
+23:52:49,226 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.utilidades.Marca" campo "container" : aï¿½adiendo el Meta-Data por el campo como no estaba en la definiciï¿½n de Meta-Data.
+23:52:49,227 (main) DEBUG [DataNucleus.MetaData] - Inicialisaciï¿½n del MetaData ...
+23:52:49,227 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.autos.Auto" : Inicializando Meta-Data
+23:52:49,229 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.utilidades.Categoria" : Inicializando Meta-Data
+23:52:49,229 (main) DEBUG [DataNucleus.MetaData] - Clase "dom.utilidades.Marca" : Inicializando Meta-Data
+23:52:49,229 (main) DEBUG [DataNucleus.MetaData] - MetaData Management : Carga de Metadata ya ha terminado
+23:52:49,229 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "dom.autos.Auto" starting ...
+23:52:49,262 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.autos.Auto" doesnt implement the interface "javax.jdo.spi.PersistenceCapable" but is required
+23:52:49,263 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.autos.Auto" doesnt have field "jdoInheritedFieldCount" but is required
+23:52:49,264 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.autos.Auto" doesnt have field "jdoFieldNames" but is required
+23:52:49,264 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.autos.Auto" doesnt have field "jdoPersistenceCapableSuperclass" but is required
+23:52:49,264 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.autos.Auto" doesnt have field "jdoFieldTypes" but is required
+23:52:49,264 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.autos.Auto" doesnt have field "jdoStateManager" but is required
+23:52:49,264 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.autos.Auto" doesnt have field "jdoFieldFlags" but is required
+23:52:49,264 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.autos.Auto" doesnt have field "jdoFlags" but is required
+23:52:49,264 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.autos.Auto" doesnt have method "__jdoGetInheritedFieldCount" but is required
+23:52:49,264 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.autos.Auto" doesnt have method "jdoNewInstance" but is required
+23:52:49,264 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.autos.Auto" doesnt have method "jdoNewInstance" but is required
+23:52:49,264 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.autos.Auto" doesnt have method "jdoIsDirty" but is required
+23:52:49,264 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.autos.Auto" doesnt have method "jdoReplaceField" but is required
+23:52:49,265 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.autos.Auto" doesnt have method "jdoReplaceFields" but is required
+23:52:49,265 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.autos.Auto" doesnt have method "jdoIsPersistent" but is required
+23:52:49,265 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.autos.Auto" doesnt have method "jdoIsNew" but is required
+23:52:49,265 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.autos.Auto" doesnt have method "jdoIsTransactional" but is required
+23:52:49,265 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.autos.Auto" doesnt have method "jdoProvideFields" but is required
+23:52:49,265 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.autos.Auto" doesnt have method "jdoCopyFields" but is required
+23:52:49,265 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.autos.Auto" doesnt have method "jdoCopyKeyFieldsToObjectId" but is required
+23:52:49,265 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.autos.Auto" doesnt have method "jdoCopyKeyFieldsToObjectId" but is required
+23:52:49,265 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.autos.Auto" doesnt have method "jdoGetManagedFieldCount" but is required
+23:52:49,265 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.autos.Auto" doesnt have method "jdoCopyKeyFieldsFromObjectId" but is required
+23:52:49,265 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.autos.Auto" doesnt have method "jdoCopyKeyFieldsFromObjectId" but is required
+23:52:49,266 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.autos.Auto" doesnt have method "jdoReplaceStateManager" but is required
+23:52:49,266 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.autos.Auto" doesnt have method "jdoNewObjectIdInstance" but is required
+23:52:49,266 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.autos.Auto" doesnt have method "jdoNewObjectIdInstance" but is required
+23:52:49,266 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.autos.Auto" doesnt have method "jdoGetTransactionalObjectId" but is required
+23:52:49,266 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.autos.Auto" doesnt have method "jdoGetPersistenceManager" but is required
+23:52:49,266 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.autos.Auto" doesnt have method "jdoMakeDirty" but is required
+23:52:49,266 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.autos.Auto" doesnt have method "__jdoFieldFlagsInit" but is required
+23:52:49,266 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.autos.Auto" doesnt have method "jdoSuperClone" but is required
+23:52:49,266 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.autos.Auto" doesnt have method "__jdoFieldNamesInit" but is required
+23:52:49,266 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.autos.Auto" doesnt have method "jdoProvideField" but is required
+23:52:49,266 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.autos.Auto" doesnt have method "jdoPreSerialize" but is required
+23:52:49,267 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.autos.Auto" doesnt have method "jdoCopyField" but is required
+23:52:49,267 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.autos.Auto" doesnt have method "jdoIsDeleted" but is required
+23:52:49,267 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.autos.Auto" doesnt have method "jdoReplaceFlags" but is required
+23:52:49,267 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.autos.Auto" doesnt have method "jdoGetObjectId" but is required
+23:52:49,267 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.autos.Auto" doesnt have method "jdoIsDetached" but is required
+23:52:49,267 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.autos.Auto" doesnt have method "__jdoPersistenceCapableSuperclassInit" but is required
+23:52:49,267 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.autos.Auto" doesnt have method "___jdo$loadClass" but is required
+23:52:49,267 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.autos.Auto" doesnt have method "__jdoFieldTypesInit" but is required
+23:52:49,267 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.autos.Auto" doesnt have method "jdoGetVersion" but is required
+23:52:49,281 (main) DEBUG [DataNucleus.Enhancer] - Adding interface: javax.jdo.spi.PersistenceCapable
+23:52:49,293 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method dom.autos.Auto.getOwnedBy changing field "dom.autos.Auto.ownedBy" for call to "jdoGetownedBy()"
+23:52:49,293 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method dom.autos.Auto.setOwnedBy changing field "dom.autos.Auto.ownedBy" for call to "jdoSetownedBy()"
+23:52:49,293 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method dom.autos.Auto.getPatente changing field "dom.autos.Auto.patente" for call to "jdoGetpatente()"
+23:52:49,293 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method dom.autos.Auto.setPatente changing field "dom.autos.Auto.patente" for call to "jdoSetpatente()"
+23:52:49,294 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method dom.autos.Auto.getMarca changing field "dom.autos.Auto.marca" for call to "jdoGetmarca()"
+23:52:49,294 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method dom.autos.Auto.setMarca changing field "dom.autos.Auto.marca" for call to "jdoSetmarca()"
+23:52:49,294 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method dom.autos.Auto.getModelo changing field "dom.autos.Auto.modelo" for call to "jdoGetmodelo()"
+23:52:49,294 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method dom.autos.Auto.setModelo changing field "dom.autos.Auto.modelo" for call to "jdoSetmodelo()"
+23:52:49,294 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method dom.autos.Auto.getAno changing field "dom.autos.Auto.ano" for call to "jdoGetano()"
+23:52:49,294 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method dom.autos.Auto.setAno changing field "dom.autos.Auto.ano" for call to "jdoSetano()"
+23:52:49,295 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method dom.autos.Auto.getColor changing field "dom.autos.Auto.color" for call to "jdoGetcolor()"
+23:52:49,295 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method dom.autos.Auto.setColor changing field "dom.autos.Auto.color" for call to "jdoSetcolor()"
+23:52:49,295 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method dom.autos.Auto.getKilometraje changing field "dom.autos.Auto.kms" for call to "jdoGetkms()"
+23:52:49,295 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method dom.autos.Auto.setKilometraje changing field "dom.autos.Auto.kms" for call to "jdoSetkms()"
+23:52:49,295 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method dom.autos.Auto.getCapacidadBaul changing field "dom.autos.Auto.baul" for call to "jdoGetbaul()"
+23:52:49,295 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method dom.autos.Auto.setCapacidadBaul changing field "dom.autos.Auto.baul" for call to "jdoSetbaul()"
+23:52:49,295 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method dom.autos.Auto.getTipoCombustible changing field "dom.autos.Auto.combustible" for call to "jdoGetcombustible()"
+23:52:49,296 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method dom.autos.Auto.setTipoCombustible changing field "dom.autos.Auto.combustible" for call to "jdoSetcombustible()"
+23:52:49,296 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method dom.autos.Auto.getEstado changing field "dom.autos.Auto.estado" for call to "jdoGetestado()"
+23:52:49,296 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method dom.autos.Auto.setEstado changing field "dom.autos.Auto.estado" for call to "jdoSetestado()"
+23:52:49,296 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method dom.autos.Auto.getFechaCompra changing field "dom.autos.Auto.fechaCompra" for call to "jdoGetfechaCompra()"
+23:52:49,296 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method dom.autos.Auto.setFechaCompra changing field "dom.autos.Auto.fechaCompra" for call to "jdoSetfechaCompra()"
+23:52:49,296 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method dom.autos.Auto.getSeguro changing field "dom.autos.Auto.seguro" for call to "jdoGetseguro()"
+23:52:49,297 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method dom.autos.Auto.setSeguro changing field "dom.autos.Auto.seguro" for call to "jdoSetseguro()"
+23:52:49,297 (main) DEBUG [DataNucleus.Enhancer] - Adding field "javax.jdo.spi.StateManager jdoStateManager"
+23:52:49,297 (main) DEBUG [DataNucleus.Enhancer] - Adding field "byte jdoFlags"
+23:52:49,297 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[B jdoFieldFlags"
+23:52:49,297 (main) DEBUG [DataNucleus.Enhancer] - Adding field "java.lang.Class jdoPersistenceCapableSuperclass"
+23:52:49,297 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[Ljava.lang.Class; jdoFieldTypes"
+23:52:49,297 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[Ljava.lang.String; jdoFieldNames"
+23:52:49,297 (main) DEBUG [DataNucleus.Enhancer] - Adding field "int jdoInheritedFieldCount"
+23:52:49,299 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void <clinit>()"
+23:52:49,300 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoCopyKeyFieldsFromObjectId(interface javax.jdo.spi.PersistenceCapable$ObjectIdFieldConsumer fc, class java.lang.Object oid)"
+23:52:49,300 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoCopyKeyFieldsFromObjectId(class java.lang.Object oid)"
+23:52:49,300 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoCopyKeyFieldsToObjectId(class java.lang.Object oid)"
+23:52:49,301 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoCopyKeyFieldsToObjectId(interface javax.jdo.spi.PersistenceCapable$ObjectIdFieldSupplier fs, class java.lang.Object oid)"
+23:52:49,302 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object jdoGetObjectId()"
+23:52:49,302 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object jdoGetVersion()"
+23:52:49,302 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoPreSerialize()"
+23:52:49,302 (main) DEBUG [DataNucleus.Enhancer] - Adding method "javax.jdo.PersistenceManager jdoGetPersistenceManager()"
+23:52:49,302 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object jdoGetTransactionalObjectId()"
+23:52:49,303 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean jdoIsDeleted()"
+23:52:49,303 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean jdoIsDirty()"
+23:52:49,303 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean jdoIsNew()"
+23:52:49,303 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean jdoIsPersistent()"
+23:52:49,303 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean jdoIsTransactional()"
+23:52:49,303 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoMakeDirty(class java.lang.String fieldName)"
+23:52:49,303 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object jdoNewObjectIdInstance()"
+23:52:49,304 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object jdoNewObjectIdInstance(class java.lang.Object key)"
+23:52:49,304 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoProvideFields(class [I indices)"
+23:52:49,304 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoReplaceFields(class [I indices)"
+23:52:49,304 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoReplaceFlags()"
+23:52:49,305 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoReplaceStateManager(interface javax.jdo.spi.StateManager sm)"
+23:52:49,305 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean jdoIsDetached()"
+23:52:49,305 (main) DEBUG [DataNucleus.Enhancer] - Adding method "javax.jdo.spi.PersistenceCapable jdoNewInstance(interface javax.jdo.spi.StateManager sm)"
+23:52:49,305 (main) DEBUG [DataNucleus.Enhancer] - Adding method "javax.jdo.spi.PersistenceCapable jdoNewInstance(interface javax.jdo.spi.StateManager sm, class java.lang.Object obj)"
+23:52:49,306 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoReplaceField(int index)"
+23:52:49,307 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoProvideField(int index)"
+23:52:49,308 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoCopyField(class dom.autos.Auto obj, int index)"
+23:52:49,308 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoCopyFields(class java.lang.Object obj, class [I indices)"
+23:52:49,308 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[Ljava.lang.String; __jdoFieldNamesInit()"
+23:52:49,308 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[Ljava.lang.Class; __jdoFieldTypesInit()"
+23:52:49,309 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[B __jdoFieldFlagsInit()"
+23:52:49,309 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int __jdoGetInheritedFieldCount()"
+23:52:49,309 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int jdoGetManagedFieldCount()"
+23:52:49,309 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Class __jdoPersistenceCapableSuperclassInit()"
+23:52:49,310 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Class ___jdo$loadClass(class java.lang.String className)"
+23:52:49,310 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object jdoSuperClone()"
+23:52:49,311 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int jdoGetano(class dom.autos.Auto objPC)"
+23:52:49,311 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoSetano(class dom.autos.Auto objPC, int val)"
+23:52:49,312 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int jdoGetbaul(class dom.autos.Auto objPC)"
+23:52:49,312 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoSetbaul(class dom.autos.Auto objPC, int val)"
+23:52:49,312 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String jdoGetcolor(class dom.autos.Auto objPC)"
+23:52:49,312 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoSetcolor(class dom.autos.Auto objPC, class java.lang.String val)"
+23:52:49,312 (main) DEBUG [DataNucleus.Enhancer] - Adding method "dom.autos.Auto$TipoCombustible jdoGetcombustible(class dom.autos.Auto objPC)"
+23:52:49,312 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoSetcombustible(class dom.autos.Auto objPC, class dom.autos.Auto$TipoCombustible val)"
+23:52:49,313 (main) DEBUG [DataNucleus.Enhancer] - Adding method "dom.autos.Auto$Estado jdoGetestado(class dom.autos.Auto objPC)"
+23:52:49,313 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoSetestado(class dom.autos.Auto objPC, class dom.autos.Auto$Estado val)"
+23:52:49,313 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.util.Date jdoGetfechaCompra(class dom.autos.Auto objPC)"
+23:52:49,313 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoSetfechaCompra(class dom.autos.Auto objPC, class java.util.Date val)"
+23:52:49,313 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int jdoGetkms(class dom.autos.Auto objPC)"
+23:52:49,313 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoSetkms(class dom.autos.Auto objPC, int val)"
+23:52:49,315 (main) DEBUG [DataNucleus.Enhancer] - Adding method "dom.utilidades.Marca jdoGetmarca(class dom.autos.Auto objPC)"
+23:52:49,315 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoSetmarca(class dom.autos.Auto objPC, class dom.utilidades.Marca val)"
+23:52:49,315 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String jdoGetmodelo(class dom.autos.Auto objPC)"
+23:52:49,315 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoSetmodelo(class dom.autos.Auto objPC, class java.lang.String val)"
+23:52:49,315 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String jdoGetownedBy(class dom.autos.Auto objPC)"
+23:52:49,315 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoSetownedBy(class dom.autos.Auto objPC, class java.lang.String val)"
+23:52:49,316 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String jdoGetpatente(class dom.autos.Auto objPC)"
+23:52:49,316 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoSetpatente(class dom.autos.Auto objPC, class java.lang.String val)"
+23:52:49,316 (main) DEBUG [DataNucleus.Enhancer] - Adding method "dom.autos.Auto$Seguro jdoGetseguro(class dom.autos.Auto objPC)"
+23:52:49,316 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoSetseguro(class dom.autos.Auto objPC, class dom.autos.Auto$Seguro val)"
+23:52:49,317 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/home/kar/ULTIMO2106/ProyectoIsis/myapp/dom/target/classes/dom/autos/Auto.class" with enhanced definition
+23:52:49,318 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "dom.autos.Auto" completed
+23:52:49,318 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "dom.utilidades.Categoria" starting ...
+23:52:49,318 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Categoria" doesnt implement the interface "javax.jdo.spi.PersistenceCapable" but is required
+23:52:49,319 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Categoria" doesnt have field "jdoInheritedFieldCount" but is required
+23:52:49,319 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Categoria" doesnt have field "jdoFieldNames" but is required
+23:52:49,319 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Categoria" doesnt have field "jdoPersistenceCapableSuperclass" but is required
+23:52:49,319 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Categoria" doesnt have field "jdoFieldTypes" but is required
+23:52:49,319 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Categoria" doesnt have field "jdoStateManager" but is required
+23:52:49,319 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Categoria" doesnt have field "jdoFieldFlags" but is required
+23:52:49,319 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Categoria" doesnt have field "jdoFlags" but is required
+23:52:49,319 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Categoria" doesnt have method "__jdoGetInheritedFieldCount" but is required
+23:52:49,319 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Categoria" doesnt have method "jdoNewInstance" but is required
+23:52:49,319 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Categoria" doesnt have method "jdoNewInstance" but is required
+23:52:49,319 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Categoria" doesnt have method "jdoIsDirty" but is required
+23:52:49,319 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Categoria" doesnt have method "jdoReplaceField" but is required
+23:52:49,319 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Categoria" doesnt have method "jdoReplaceFields" but is required
+23:52:49,320 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Categoria" doesnt have method "jdoIsPersistent" but is required
+23:52:49,320 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Categoria" doesnt have method "jdoIsNew" but is required
+23:52:49,320 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Categoria" doesnt have method "jdoIsTransactional" but is required
+23:52:49,320 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Categoria" doesnt have method "jdoProvideFields" but is required
+23:52:49,320 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Categoria" doesnt have method "jdoCopyFields" but is required
+23:52:49,320 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Categoria" doesnt have method "jdoCopyKeyFieldsToObjectId" but is required
+23:52:49,320 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Categoria" doesnt have method "jdoCopyKeyFieldsToObjectId" but is required
+23:52:49,320 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Categoria" doesnt have method "jdoGetManagedFieldCount" but is required
+23:52:49,320 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Categoria" doesnt have method "jdoCopyKeyFieldsFromObjectId" but is required
+23:52:49,320 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Categoria" doesnt have method "jdoCopyKeyFieldsFromObjectId" but is required
+23:52:49,320 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Categoria" doesnt have method "jdoReplaceStateManager" but is required
+23:52:49,320 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Categoria" doesnt have method "jdoNewObjectIdInstance" but is required
+23:52:49,320 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Categoria" doesnt have method "jdoNewObjectIdInstance" but is required
+23:52:49,320 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Categoria" doesnt have method "jdoGetTransactionalObjectId" but is required
+23:52:49,320 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Categoria" doesnt have method "jdoGetPersistenceManager" but is required
+23:52:49,320 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Categoria" doesnt have method "jdoMakeDirty" but is required
+23:52:49,320 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Categoria" doesnt have method "__jdoFieldFlagsInit" but is required
+23:52:49,321 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Categoria" doesnt have method "jdoSuperClone" but is required
+23:52:49,321 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Categoria" doesnt have method "__jdoFieldNamesInit" but is required
+23:52:49,321 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Categoria" doesnt have method "jdoProvideField" but is required
+23:52:49,321 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Categoria" doesnt have method "jdoPreSerialize" but is required
+23:52:49,321 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Categoria" doesnt have method "jdoCopyField" but is required
+23:52:49,321 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Categoria" doesnt have method "jdoIsDeleted" but is required
+23:52:49,321 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Categoria" doesnt have method "jdoReplaceFlags" but is required
+23:52:49,321 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Categoria" doesnt have method "jdoGetObjectId" but is required
+23:52:49,321 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Categoria" doesnt have method "jdoIsDetached" but is required
+23:52:49,321 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Categoria" doesnt have method "__jdoPersistenceCapableSuperclassInit" but is required
+23:52:49,321 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Categoria" doesnt have method "___jdo$loadClass" but is required
+23:52:49,321 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Categoria" doesnt have method "__jdoFieldTypesInit" but is required
+23:52:49,321 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Categoria" doesnt have method "jdoGetVersion" but is required
+23:52:49,322 (main) DEBUG [DataNucleus.Enhancer] - Adding interface: javax.jdo.spi.PersistenceCapable
+23:52:49,322 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method dom.utilidades.Categoria.getCategorias changing field "dom.utilidades.Categoria.categorias" for call to "jdoGetcategorias()"
+23:52:49,322 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method dom.utilidades.Categoria.setCategorias changing field "dom.utilidades.Categoria.categorias" for call to "jdoSetcategorias()"
+23:52:49,323 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method dom.utilidades.Categoria.getCantPuertas changing field "dom.utilidades.Categoria.cantPuertas" for call to "jdoGetcantPuertas()"
+23:52:49,323 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method dom.utilidades.Categoria.setCantPuertas changing field "dom.utilidades.Categoria.cantPuertas" for call to "jdoSetcantPuertas()"
+23:52:49,323 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method dom.utilidades.Categoria.getCantPlazas changing field "dom.utilidades.Categoria.cantPlazas" for call to "jdoGetcantPlazas()"
+23:52:49,323 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method dom.utilidades.Categoria.setCantPlazas changing field "dom.utilidades.Categoria.cantPlazas" for call to "jdoSetcantPlazas()"
+23:52:49,323 (main) DEBUG [DataNucleus.Enhancer] - Adding field "javax.jdo.spi.StateManager jdoStateManager"
+23:52:49,323 (main) DEBUG [DataNucleus.Enhancer] - Adding field "byte jdoFlags"
+23:52:49,323 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[B jdoFieldFlags"
+23:52:49,323 (main) DEBUG [DataNucleus.Enhancer] - Adding field "java.lang.Class jdoPersistenceCapableSuperclass"
+23:52:49,323 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[Ljava.lang.Class; jdoFieldTypes"
+23:52:49,323 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[Ljava.lang.String; jdoFieldNames"
+23:52:49,324 (main) DEBUG [DataNucleus.Enhancer] - Adding field "int jdoInheritedFieldCount"
+23:52:49,324 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void <clinit>()"
+23:52:49,324 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoCopyKeyFieldsFromObjectId(interface javax.jdo.spi.PersistenceCapable$ObjectIdFieldConsumer fc, class java.lang.Object oid)"
+23:52:49,324 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoCopyKeyFieldsFromObjectId(class java.lang.Object oid)"
+23:52:49,324 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoCopyKeyFieldsToObjectId(class java.lang.Object oid)"
+23:52:49,324 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoCopyKeyFieldsToObjectId(interface javax.jdo.spi.PersistenceCapable$ObjectIdFieldSupplier fs, class java.lang.Object oid)"
+23:52:49,325 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object jdoGetObjectId()"
+23:52:49,325 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object jdoGetVersion()"
+23:52:49,325 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoPreSerialize()"
+23:52:49,325 (main) DEBUG [DataNucleus.Enhancer] - Adding method "javax.jdo.PersistenceManager jdoGetPersistenceManager()"
+23:52:49,325 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object jdoGetTransactionalObjectId()"
+23:52:49,326 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean jdoIsDeleted()"
+23:52:49,326 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean jdoIsDirty()"
+23:52:49,326 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean jdoIsNew()"
+23:52:49,326 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean jdoIsPersistent()"
+23:52:49,326 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean jdoIsTransactional()"
+23:52:49,327 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoMakeDirty(class java.lang.String fieldName)"
+23:52:49,327 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object jdoNewObjectIdInstance()"
+23:52:49,327 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object jdoNewObjectIdInstance(class java.lang.Object key)"
+23:52:49,327 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoProvideFields(class [I indices)"
+23:52:49,327 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoReplaceFields(class [I indices)"
+23:52:49,327 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoReplaceFlags()"
+23:52:49,328 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoReplaceStateManager(interface javax.jdo.spi.StateManager sm)"
+23:52:49,328 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean jdoIsDetached()"
+23:52:49,328 (main) DEBUG [DataNucleus.Enhancer] - Adding method "javax.jdo.spi.PersistenceCapable jdoNewInstance(interface javax.jdo.spi.StateManager sm)"
+23:52:49,328 (main) DEBUG [DataNucleus.Enhancer] - Adding method "javax.jdo.spi.PersistenceCapable jdoNewInstance(interface javax.jdo.spi.StateManager sm, class java.lang.Object obj)"
+23:52:49,329 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoReplaceField(int index)"
+23:52:49,329 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoProvideField(int index)"
+23:52:49,329 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoCopyField(class dom.utilidades.Categoria obj, int index)"
+23:52:49,330 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoCopyFields(class java.lang.Object obj, class [I indices)"
+23:52:49,330 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[Ljava.lang.String; __jdoFieldNamesInit()"
+23:52:49,330 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[Ljava.lang.Class; __jdoFieldTypesInit()"
+23:52:49,330 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[B __jdoFieldFlagsInit()"
+23:52:49,330 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int __jdoGetInheritedFieldCount()"
+23:52:49,330 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int jdoGetManagedFieldCount()"
+23:52:49,330 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Class __jdoPersistenceCapableSuperclassInit()"
+23:52:49,331 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Class ___jdo$loadClass(class java.lang.String className)"
+23:52:49,331 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object jdoSuperClone()"
+23:52:49,331 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int jdoGetcantPlazas(class dom.utilidades.Categoria objPC)"
+23:52:49,331 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoSetcantPlazas(class dom.utilidades.Categoria objPC, int val)"
+23:52:49,332 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int jdoGetcantPuertas(class dom.utilidades.Categoria objPC)"
+23:52:49,332 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoSetcantPuertas(class dom.utilidades.Categoria objPC, int val)"
+23:52:49,332 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String jdoGetcategorias(class dom.utilidades.Categoria objPC)"
+23:52:49,332 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoSetcategorias(class dom.utilidades.Categoria objPC, class java.lang.String val)"
+23:52:49,333 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/home/kar/ULTIMO2106/ProyectoIsis/myapp/dom/target/classes/dom/utilidades/Categoria.class" with enhanced definition
+23:52:49,334 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "dom.utilidades.Categoria" completed
+23:52:49,334 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "dom.utilidades.Marca" starting ...
+23:52:49,335 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Marca" doesnt implement the interface "javax.jdo.spi.PersistenceCapable" but is required
+23:52:49,335 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Marca" doesnt have field "jdoInheritedFieldCount" but is required
+23:52:49,335 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Marca" doesnt have field "jdoFieldNames" but is required
+23:52:49,335 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Marca" doesnt have field "jdoPersistenceCapableSuperclass" but is required
+23:52:49,335 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Marca" doesnt have field "jdoFieldTypes" but is required
+23:52:49,335 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Marca" doesnt have field "jdoStateManager" but is required
+23:52:49,336 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Marca" doesnt have field "jdoFieldFlags" but is required
+23:52:49,336 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Marca" doesnt have field "jdoFlags" but is required
+23:52:49,336 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Marca" doesnt have method "__jdoGetInheritedFieldCount" but is required
+23:52:49,336 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Marca" doesnt have method "jdoNewInstance" but is required
+23:52:49,336 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Marca" doesnt have method "jdoNewInstance" but is required
+23:52:49,336 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Marca" doesnt have method "jdoIsDirty" but is required
+23:52:49,336 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Marca" doesnt have method "jdoReplaceField" but is required
+23:52:49,336 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Marca" doesnt have method "jdoReplaceFields" but is required
+23:52:49,336 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Marca" doesnt have method "jdoIsPersistent" but is required
+23:52:49,336 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Marca" doesnt have method "jdoIsNew" but is required
+23:52:49,336 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Marca" doesnt have method "jdoIsTransactional" but is required
+23:52:49,336 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Marca" doesnt have method "jdoProvideFields" but is required
+23:52:49,337 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Marca" doesnt have method "jdoCopyFields" but is required
+23:52:49,337 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Marca" doesnt have method "jdoCopyKeyFieldsToObjectId" but is required
+23:52:49,337 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Marca" doesnt have method "jdoCopyKeyFieldsToObjectId" but is required
+23:52:49,337 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Marca" doesnt have method "jdoGetManagedFieldCount" but is required
+23:52:49,337 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Marca" doesnt have method "jdoCopyKeyFieldsFromObjectId" but is required
+23:52:49,337 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Marca" doesnt have method "jdoCopyKeyFieldsFromObjectId" but is required
+23:52:49,337 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Marca" doesnt have method "jdoReplaceStateManager" but is required
+23:52:49,337 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Marca" doesnt have method "jdoNewObjectIdInstance" but is required
+23:52:49,337 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Marca" doesnt have method "jdoNewObjectIdInstance" but is required
+23:52:49,337 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Marca" doesnt have method "jdoGetTransactionalObjectId" but is required
+23:52:49,337 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Marca" doesnt have method "jdoGetPersistenceManager" but is required
+23:52:49,338 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Marca" doesnt have method "jdoMakeDirty" but is required
+23:52:49,338 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Marca" doesnt have method "__jdoFieldFlagsInit" but is required
+23:52:49,338 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Marca" doesnt have method "jdoSuperClone" but is required
+23:52:49,338 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Marca" doesnt have method "__jdoFieldNamesInit" but is required
+23:52:49,338 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Marca" doesnt have method "jdoProvideField" but is required
+23:52:49,338 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Marca" doesnt have method "jdoPreSerialize" but is required
+23:52:49,338 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Marca" doesnt have method "jdoCopyField" but is required
+23:52:49,338 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Marca" doesnt have method "jdoIsDeleted" but is required
+23:52:49,338 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Marca" doesnt have method "jdoReplaceFlags" but is required
+23:52:49,338 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Marca" doesnt have method "jdoGetObjectId" but is required
+23:52:49,338 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Marca" doesnt have method "jdoIsDetached" but is required
+23:52:49,339 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Marca" doesnt have method "__jdoPersistenceCapableSuperclassInit" but is required
+23:52:49,339 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Marca" doesnt have method "___jdo$loadClass" but is required
+23:52:49,339 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Marca" doesnt have method "__jdoFieldTypesInit" but is required
+23:52:49,339 (main) DEBUG [DataNucleus.Enhancer] - Class "dom.utilidades.Marca" doesnt have method "jdoGetVersion" but is required
+23:52:49,339 (main) DEBUG [DataNucleus.Enhancer] - Adding interface: javax.jdo.spi.PersistenceCapable
+23:52:49,340 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method dom.utilidades.Marca.getOwnedBy changing field "dom.utilidades.Marca.ownedBy" for call to "jdoGetownedBy()"
+23:52:49,340 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method dom.utilidades.Marca.setOwnedBy changing field "dom.utilidades.Marca.ownedBy" for call to "jdoSetownedBy()"
+23:52:49,341 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method dom.utilidades.Marca.getNombre changing field "dom.utilidades.Marca.nombre" for call to "jdoGetnombre()"
+23:52:49,341 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method dom.utilidades.Marca.setNombre changing field "dom.utilidades.Marca.nombre" for call to "jdoSetnombre()"
+23:52:49,341 (main) DEBUG [DataNucleus.Enhancer] - Adding field "javax.jdo.spi.StateManager jdoStateManager"
+23:52:49,342 (main) DEBUG [DataNucleus.Enhancer] - Adding field "byte jdoFlags"
+23:52:49,342 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[B jdoFieldFlags"
+23:52:49,342 (main) DEBUG [DataNucleus.Enhancer] - Adding field "java.lang.Class jdoPersistenceCapableSuperclass"
+23:52:49,342 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[Ljava.lang.Class; jdoFieldTypes"
+23:52:49,342 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[Ljava.lang.String; jdoFieldNames"
+23:52:49,342 (main) DEBUG [DataNucleus.Enhancer] - Adding field "int jdoInheritedFieldCount"
+23:52:49,343 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void <clinit>()"
+23:52:49,343 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoCopyKeyFieldsFromObjectId(interface javax.jdo.spi.PersistenceCapable$ObjectIdFieldConsumer fc, class java.lang.Object oid)"
+23:52:49,343 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoCopyKeyFieldsFromObjectId(class java.lang.Object oid)"
+23:52:49,343 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoCopyKeyFieldsToObjectId(class java.lang.Object oid)"
+23:52:49,343 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoCopyKeyFieldsToObjectId(interface javax.jdo.spi.PersistenceCapable$ObjectIdFieldSupplier fs, class java.lang.Object oid)"
+23:52:49,344 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object jdoGetObjectId()"
+23:52:49,344 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object jdoGetVersion()"
+23:52:49,344 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoPreSerialize()"
+23:52:49,344 (main) DEBUG [DataNucleus.Enhancer] - Adding method "javax.jdo.PersistenceManager jdoGetPersistenceManager()"
+23:52:49,345 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object jdoGetTransactionalObjectId()"
+23:52:49,345 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean jdoIsDeleted()"
+23:52:49,345 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean jdoIsDirty()"
+23:52:49,345 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean jdoIsNew()"
+23:52:49,345 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean jdoIsPersistent()"
+23:52:49,345 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean jdoIsTransactional()"
+23:52:49,346 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoMakeDirty(class java.lang.String fieldName)"
+23:52:49,346 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object jdoNewObjectIdInstance()"
+23:52:49,346 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object jdoNewObjectIdInstance(class java.lang.Object key)"
+23:52:49,346 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoProvideFields(class [I indices)"
+23:52:49,347 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoReplaceFields(class [I indices)"
+23:52:49,347 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoReplaceFlags()"
+23:52:49,347 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoReplaceStateManager(interface javax.jdo.spi.StateManager sm)"
+23:52:49,347 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean jdoIsDetached()"
+23:52:49,347 (main) DEBUG [DataNucleus.Enhancer] - Adding method "javax.jdo.spi.PersistenceCapable jdoNewInstance(interface javax.jdo.spi.StateManager sm)"
+23:52:49,348 (main) DEBUG [DataNucleus.Enhancer] - Adding method "javax.jdo.spi.PersistenceCapable jdoNewInstance(interface javax.jdo.spi.StateManager sm, class java.lang.Object obj)"
+23:52:49,348 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoReplaceField(int index)"
+23:52:49,348 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoProvideField(int index)"
+23:52:49,349 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoCopyField(class dom.utilidades.Marca obj, int index)"
+23:52:49,349 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoCopyFields(class java.lang.Object obj, class [I indices)"
+23:52:49,349 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[Ljava.lang.String; __jdoFieldNamesInit()"
+23:52:49,349 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[Ljava.lang.Class; __jdoFieldTypesInit()"
+23:52:49,349 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[B __jdoFieldFlagsInit()"
+23:52:49,349 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int __jdoGetInheritedFieldCount()"
+23:52:49,350 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int jdoGetManagedFieldCount()"
+23:52:49,350 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Class __jdoPersistenceCapableSuperclassInit()"
+23:52:49,350 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Class ___jdo$loadClass(class java.lang.String className)"
+23:52:49,350 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object jdoSuperClone()"
+23:52:49,351 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String jdoGetnombre(class dom.utilidades.Marca objPC)"
+23:52:49,351 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoSetnombre(class dom.utilidades.Marca objPC, class java.lang.String val)"
+23:52:49,351 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String jdoGetownedBy(class dom.utilidades.Marca objPC)"
+23:52:49,351 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoSetownedBy(class dom.utilidades.Marca objPC, class java.lang.String val)"
+23:52:49,352 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/home/kar/ULTIMO2106/ProyectoIsis/myapp/dom/target/classes/dom/utilidades/Marca.class" with enhanced definition
+23:52:49,353 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "dom.utilidades.Marca" completed
+23:52:49,353 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 3 classes. Timings : input=239 ms, enhance=124 ms, total=363 ms. Consult the log for full details
